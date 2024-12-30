@@ -1,2 +1,2 @@
 # mssf-core
-This crate provides safe rust api for Service Fabric, wrapping around mssf-com crate.
+This crate provides safe Rust API for Service Fabric, wrapping around mssf-com crate.

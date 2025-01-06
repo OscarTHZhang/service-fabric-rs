@@ -33,6 +33,8 @@ pub mod runtime;
 pub mod strings;
 pub mod sync;
 pub mod types;
+#[cfg(feature = "test")]
+pub mod test;
 
 // re-export some windows types
 pub use windows_core::{Error, Interface, Result, WString, GUID, HRESULT, PCWSTR};
